@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import PharmacyCards from "../Components/PharmacyCards";
+import PharmacyPage from "../Components/PharmacyPage";
 import App from "../App";
 
 const AppRouter =  createBrowserRouter(
@@ -10,7 +10,7 @@ const AppRouter =  createBrowserRouter(
         },
         {
         path:"/Pharmacy",
-        element:<PharmacyCards/>
+        element:<PharmacyPage/>
         }
     ]
 )
